@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class WayPointFollower : MonoBehaviour
 {
+    //waypoints: [Serializefields] 
+    private Transform[] waypoints;
+
     // Start is called before the first frame update
     void Start()
     {
