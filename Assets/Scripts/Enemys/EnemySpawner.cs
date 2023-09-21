@@ -10,7 +10,16 @@ public class EnemySpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //IEnumerator SpawnEnemy();
+        StartCoroutine("SpawnEnemy");
+    }
+
+    IEnumerator SpawnEnemy() 
+    {
+        while(true) 
+        { // dit zorgt ervoor dat de code elke 1 seconde wordt uitgevoerd
+            yield return new WaitForSeconds(1);
+            Instantiate(enemyPrefab);
+        }
     }
 
     // Update is called once per frame

@@ -5,10 +5,11 @@ using UnityEngine;
 
 public class WayPointFollower : MonoBehaviour
 {
-    [SerializeField] private Transform[] waypoints;
+    [SerializeField] public Transform[] waypoints;
     [SerializeField] private float speed = 1;
     [SerializeField] private int nextWaypointIndex = 1;
     [SerializeField] private float reachedWaypointClearance = 0.25f;
+    [SerializeField] private Path path;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +30,16 @@ public class WayPointFollower : MonoBehaviour
         if (nextWaypointIndex >= waypoints.Length) 
         {
             nextWaypointIndex = 0;
+        }
+    }
+
+    public class FindAnyObjectByType : MonoBehaviour
+    {
+        private FindAnyObjectByType target;
+
+        private void Awake()
+        {
+            //path = FindObjectOfType<Path>();
         }
     }
 }
