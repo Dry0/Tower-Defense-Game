@@ -153,15 +153,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a77b9050cdc0ba1439237c26c994f9b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoints:
-  - {fileID: 1652182895}
-  - {fileID: 1467308529}
-  - {fileID: 353138721}
-  - {fileID: 1348598418}
   speed: 10
   nextWaypointIndex: 1
   reachedWaypointClearance: 0.25
-  path: {fileID: 0}
+  path: {fileID: 1368164040}
 --- !u!212 &70828155
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -227,7 +222,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &353138720
 GameObject:
@@ -476,7 +471,7 @@ PrefabInstance:
       objectReference: {fileID: 5317565457055578032, guid: 03c65ce390969954f902a632254088e5, type: 3}
     - target: {fileID: 8140640415986426165, guid: c4878b21af996f04084f46eb3093dff1, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8140640415986426165, guid: c4878b21af996f04084f46eb3093dff1, type: 3}
       propertyPath: m_LocalPosition.x
