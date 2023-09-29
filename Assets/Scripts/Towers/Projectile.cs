@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    
+    [SerializeField] public Transform target;
+    [SerializeField] private float speed = 10;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,7 +15,8 @@ public class Projectile : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        
+    { // makes the projectile move toward the target
+        transform.position = Vector3.MoveTowards(transform.position, target.transform.position, Time.deltaTime * speed);
+        Debug.Log("test");
     }
 }

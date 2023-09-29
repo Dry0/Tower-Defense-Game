@@ -10,11 +10,12 @@ public class Tower : MonoBehaviour
     //Transform target;
     [SerializeField] private GameObject projectilePrefab;
     [SerializeField] private Transform target;
+    [SerializeField] private float shootInterval = 1;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        StartCoroutine(Shoot());
     }
 
     // Update is called once per frame
@@ -38,8 +39,17 @@ public class Tower : MonoBehaviour
         transform.rotation = Quaternion.FromToRotation(Vector3.up, direction);
     }
 
-    //public bool IEnumerator Shoot()  
-    //{
-        //StartCoroutine(Shoot());
-    //}
+    public IEnumerator Shoot()  
+    {
+        while (true) 
+        {
+            yield return new WaitForSeconds(shootInterval);
+            GameObject projectileGameObject = Instantiate(projectilePrefab);
+
+            Projectile projectile = projectileGameObject.GetComponent<Projectile>();
+
+            //Set the target of the Projectile to the target of the Tower
+            projectile.target = target;
+        }
+    }
 }
