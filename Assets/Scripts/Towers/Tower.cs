@@ -34,16 +34,17 @@ public class Tower : MonoBehaviour
     }
 
     public void LookAtTarget()
-    {
+    {   // looks for target
         Vector2 direction = target.position - transform.position;
-        transform.rotation = Quaternion.FromToRotation(Vector3.up, direction);
+        transform.rotation = Quaternion.FromToRotation(Vector3.up, direction); // makes it rotate 
     }
 
     public IEnumerator Shoot()  
     {
         while (true) 
         {
-            yield return new WaitForSeconds(shootInterval);
+            // amount of time between shots
+            yield return new WaitForSeconds(shootInterval); 
             GameObject projectileGameObject = Instantiate(projectilePrefab);
 
             Projectile projectile = projectileGameObject.GetComponent<Projectile>();

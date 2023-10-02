@@ -18,5 +18,19 @@ public class Projectile : MonoBehaviour
     { // makes the projectile move toward the target
         transform.position = Vector3.MoveTowards(transform.position, target.transform.position, Time.deltaTime * speed);
         Debug.Log("test");
+
+        if (target == null) 
+        {
+            Destroy(gameObject); return;
+        }
+    }
+
+    void onTriggerEnter2D(Collider2D other) 
+    {
+        if (other.tag == "Enemy") 
+        {
+            Destroy(gameObject);
+            Destroy(other.gameObject);
+        }
     }
 }
