@@ -28,12 +28,22 @@ public class Tower : MonoBehaviour
             return;
         }
 
+        float nearestDistance = 100; //  store the closest distance in a variable
+        for (int i = 0; i < targets.Length; i++) 
+        {
+            float distance = Vector2.Distance(transform.position, targets[i].transform.position); // check what the distance is between the tower and target
+            if (distance < nearestDistance)  // if the distance is smaller then the nearestDistance variabele
+            {
+                target = targets[i].transform; 
+                nearestDistance = distance;
+            }
+        }
         target = targets[0].transform;
 
         LookAtTarget();
     }
 
-    public void LookAtTarget()
+    public void LookAtTarget() // btw this is a function
     { 
         Vector2 direction = target.position - transform.position; // looks for target
         transform.rotation = Quaternion.FromToRotation(Vector3.up, direction); // makes it rotate 
@@ -43,11 +53,11 @@ public class Tower : MonoBehaviour
     {
         while (true)
         {
-            // amount of time between shots
-            yield return new WaitForSeconds(shootInterval);
+            yield return new WaitForSeconds(shootInterval); // amount of time between shots
             GameObject projectileGameObject = Instantiate(projectilePrefab);
 
             Projectile projectile = projectileGameObject.GetComponent<Projectile>();
+            projectileGameObject.transform.position = transform.position; // makes it so that if there are multiple towers in the lvl the projectiles wont spawn from only one tower but from all of them
 
             //Set the target of the Projectile to the target of the Tower
             projectile.target = target;
