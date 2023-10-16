@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class WayPointFollower : MonoBehaviour
 {
-    [SerializeField] private float speed = 1;
-    [SerializeField] private int nextWaypointIndex = 1;
+    [SerializeField] private float speed = 1; 
+    [SerializeField] private int nextWaypointIndex = 1; 
     [SerializeField] private float reachedWaypointClearance = 0.25f;
     [SerializeField] private Path path;
 
@@ -19,6 +19,7 @@ public class WayPointFollower : MonoBehaviour
     void Start()
     { // make the enemy set to the first waypoint
         transform.position = path.waypoints[0].position;
+       
     }
 
     // Update is called once per frame

@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class TowerPlacement : MonoBehaviour
 {
-    [SerializeField] private GameObject towerPrefab; // stores the towerPrefab
-    [SerializeField] private GameObject[] towerSlots; // [SerializeField] private List<GameObject>towerSlots; 
+    [SerializeField] private Tower towerPrefab; // stores the towerPrefab
+    [SerializeField] private TowerSlot[] towerSlots; // [SerializeField] private List<GameObject>towerSlots; 
 
     // Start is called before the first frame update
     void Start()
@@ -20,17 +20,25 @@ public class TowerPlacement : MonoBehaviour
         if (Input.GetMouseButtonDown(0)) 
         {
             Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition); // shoot a Raycast from the mousePosition to the world
+
             RaycastHit2D hit = Physics2D.Raycast(mousePosition, Vector2.zero); // checks if the mouse button is pressed
 
             if (hit.collider != null) //checks if the raycast hits something in the scene
             {
-                int towerSlotIndex = Array.IndexOf(towerSlots, hit.collider.gameObject); // if you click on the towerslot it will proceed with this function
+
+                int towerSlotIndex = Array.IndexOf(towerSlots, hit.collider.GetComponent<TowerSlot>()); // if you click on the towerslot it will proceed with this function
                 
-                if (towerSlotIndex == -1) //returns -1 if you dont click on the towerslot
+                if (towerSlotIndex != -1) //returns -1 if you dont click on the towerslot
                 {
-                    return;
+                    //PlaceTower(towerSlotIndex); // calls the function tower
+
+                    if (towerSlots[towerSlotIndex].tower != null) // checks if it can put the towerPrefab in the towerSlot
+                    {
+                        return;
+                    }
+
+                    PlaceTower(towerSlotIndex); // calls the function tower 
                 }
-                PlaceTower(towerSlotIndex); // calls the function tower
             }
         }
 
@@ -39,7 +47,8 @@ public class TowerPlacement : MonoBehaviour
 
     void PlaceTower(int towerSlotIndex) 
     {
-        GameObject tower = Instantiate(towerPrefab); // stores the prefab in GameObject tower
+        Tower tower = Instantiate(towerPrefab) as Tower; // change the return type of the Instantiate function to be the Tower class by casting it to the Tower class 
+        towerSlots[towerSlotIndex].tower = tower; // instantiate the towerPrefab we instantly store it in a Tower tower variable 
         tower.transform.position = towerSlots[towerSlotIndex].transform.position; // transforms the towerslot in the prefab tower/ GameObject Tower
     }
 

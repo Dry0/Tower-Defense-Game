@@ -34,16 +34,16 @@ public class Tower : MonoBehaviour
             float distance = Vector2.Distance(transform.position, targets[i].transform.position); // check what the distance is between the tower and target
             if (distance < nearestDistance)  // if the distance is smaller then the nearestDistance variabele
             {
-                target = targets[i].transform; 
+                target = targets[i].transform; // makes the tower target the nearest enemy
                 nearestDistance = distance;
             }
         }
-        target = targets[0].transform;
+        //target = targets[0].transform; // maybe remove?
 
         LookAtTarget();
     }
 
-    public void LookAtTarget() // btw this is a function
+    void LookAtTarget() // btw this is a function
     { 
         Vector2 direction = target.position - transform.position; // looks for target
         transform.rotation = Quaternion.FromToRotation(Vector3.up, direction); // makes it rotate 
