@@ -6,7 +6,7 @@ using UnityEngine;
 public class TowerPlacement : MonoBehaviour
 {
     [SerializeField] private Tower towerPrefab; // stores the towerPrefab
-    [SerializeField] private TowerSlot[] towerSlots; // [SerializeField] private List<GameObject>towerSlots; 
+    [SerializeField] private TowerSlot[] towerSlots; 
 
     // Start is called before the first frame update
     void Start()

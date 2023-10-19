@@ -8,12 +8,12 @@ public class WayPointFollower : MonoBehaviour
     [SerializeField] private float speed = 1; 
     [SerializeField] private int nextWaypointIndex = 1; 
     [SerializeField] private float reachedWaypointClearance = 0.25f;
-    [SerializeField] private Path path;
+    [SerializeField] public Path path;
 
-    void Awake()
-    {// find an object with the type path so in this case it uses the path script very simple i know
-        path = FindObjectOfType<Path>();
-    }
+    //void Awake()
+    //{// find an object with the type path so in this case it uses the path script very simple i know
+        //path = FindObjectOfType<Path>();
+    //}
 
     // Start is called before the first frame update
     void Start()
