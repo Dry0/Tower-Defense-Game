@@ -14,6 +14,7 @@ Dit is de [Root](https://github.com/Dry0/Tower-Defense-Game/tree/Develop/Assets)
 ## Product 3: Build op Github
 
 hier is mijn build
+[Release Voorbeeld](https://github.com/erwinhenraat/TowerDefenseTemplate/releases)
 
 ## Product 4: Game met Sprites(animations) en Textures 
 ![ezgif com-video-to-gif](https://github.com/Dry0/Tower-Defense-Game/assets/115462366/865960f5-a378-454d-b801-7197b96b5034)
