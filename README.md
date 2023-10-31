@@ -45,6 +45,4 @@ De eerste enemy is de beginners enemy die best traag is wat hem goed geschikt ma
 
 ## Product 7: Class Diagram voor volledige codebase 
 
-
-
-[Uploading Tower-Defense-Diagram periode-2.1.drawio…]()
+[“Draw.io”](https://app.diagrams.net/)
