@@ -63,16 +63,10 @@ Ja hier is de video
 
 ## Product 10: Gitflow conventions
 
-Ik zal meerendeels 
+Ik zal meerendeels de develop branch gebruiken tijdens het werk maar ik zal ook zeker gebruik maken van de feature branch 
+ik zal de namen tijdens het comitten zo gedatileërd mogelijk maken zodat ik ze makkelijk terug kan vinden 
+en misschien zal ik nog gebruik maken van de hotfix branch voor als ik de main niet geod heb gereleasd
 
-Je hebt voor je eigen project in je readme gitflow conventies opgesteld en je hier ook aantoonbaar aan gehouden. 
 
-De gitflow conventions gaan uit van een extra branch Develop naast de "Master"/"Main". Op de main worden alleen stabiele releases gezet.
-
-Verder worden features op een daarvoor bedoelde feature banch ontwikkeld. Ook kun je gebruik maken van een hotfix brancg vanaf develop.
-
-Leg hier uit welke branches jij gaat gebruiken en wat voor namen je hier aan gaat meegeven. Hoe vaak ga je comitten en wat voor commit messages wil je geven?
-
-Meer info over het gebruiken van gitflow [hier](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 
 
