@@ -32,7 +32,7 @@ public class WaveSpawner : MonoBehaviour
 
 
             yield return new WaitForSeconds(currentCooldown);
-            GameObject gameObject1 = currentEnemyWave.enemies[enemyCount];
+            GameObject gameObject1 = currentEnemyWave.enemies[enemyCount]; // added dont think this is the right one
             currentEnemy = gameObject1; // goes down the list of the way to spawn the enemies 
             //currentEnemy = currentEnemyWave.enemies[enemyCount]; // goes down the list of the way to spawn the enemies ORGINAL ONE
             enemyCount++;
