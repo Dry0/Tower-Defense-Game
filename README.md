@@ -41,8 +41,17 @@ De eerste enemy is de beginners enemy die best traag is wat hem goed geschikt ma
 
 *  **Je game bevat een “wave” systeem waarmee er onder bepaalde voorwaarden (tijd/vijanden op) nieuwe waves met vijanden het veld in komen.**
 
-*De enemies spawnen in een grote groep achter elkaar, na een bepaalde tijde spwant de 2e wave etc.*
+*De enemies spawnen in een grote groep achter elkaar, na een bepaalde tijde spwant de 2e wave etc*
 
 ## Product 7: Class Diagram voor volledige codebase 
 
 [“Draw.io”](https://app.diagrams.net/)
+
+
+
+
+![Schermafbeelding 2023-10-31 184710](https://github.com/Dry0/Tower-Defense-Game/assets/115462366/612da28b-fa4b-4bd5-8b72-13d858681ca2)
+
+
+
+
