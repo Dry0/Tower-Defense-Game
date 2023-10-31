@@ -32,7 +32,9 @@ public class WaveSpawner : MonoBehaviour
 
 
             yield return new WaitForSeconds(currentCooldown);
-            currentEnemy = currentEnemyWave.enemies[enemyCount]; // goes down the list of the way to spawn the enemies 
+            GameObject gameObject1 = currentEnemyWave.enemies[enemyCount];
+            currentEnemy = gameObject1; // goes down the list of the way to spawn the enemies 
+            //currentEnemy = currentEnemyWave.enemies[enemyCount]; // goes down the list of the way to spawn the enemies ORGINAL ONE
             enemyCount++;
 
             WayPointFollower follower = currentEnemy.GetComponent<WayPointFollower>(); // picks the follower and sets the path of follower to their path

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,11 +8,12 @@ public class Projectile : MonoBehaviour
     [SerializeField] public Transform target;
     [SerializeField] private float speed = 10;
 
-
+    public static event Action OnNewProjectile;
+    public static event Action OnHitEnemy;
     // Start is called before the first frame update
     void Start()
     {
-        
+        OnNewProjectile?.Invoke();
     }
 
     // Update is called once per frame
@@ -31,6 +33,8 @@ public class Projectile : MonoBehaviour
     {
         if (other.tag == "Enemy") 
         {
+            OnHitEnemy?.Invoke(); // zo kan je een event gebruiken
+
             Destroy(gameObject);
             Destroy(other.gameObject);
         }

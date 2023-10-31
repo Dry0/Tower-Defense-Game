@@ -15,7 +15,10 @@ public class Tower : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(Shoot());
+        StartCoroutine(Shoot()); 
+        Projectile.OnHitEnemy += HanldeEnemyHit; // zo kan je  een event gebruiken
+
+
     }
 
     // Update is called once per frame
@@ -62,5 +65,9 @@ public class Tower : MonoBehaviour
             //Set the target of the Projectile to the target of the Tower
             projectile.target = target;
         }
+    }
+
+    private void HanldeEnemyHit() {
+        Debug.Log("yeah!!! an enemy was hit"); // zo kan je een event gebruiken
     }
 }
