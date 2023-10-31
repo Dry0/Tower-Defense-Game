@@ -14,7 +14,7 @@ Dit is de [Root](https://github.com/Dry0/Tower-Defense-Game/tree/Develop/Assets)
 ## Product 3: Build op Github
 
 hier is mijn build
-[Release Voorbeeld](https://github.com/Dry0/Tower-Defense-Game/releases/tag/TDM-TDG)
+[Release](https://github.com/Dry0/Tower-Defense-Game/releases/tag/TDM-TDG)
 
 ## Product 4: Game met Sprites(animations) en Textures 
 ![ezgif com-video-to-gif](https://github.com/Dry0/Tower-Defense-Game/assets/115462366/865960f5-a378-454d-b801-7197b96b5034)
@@ -50,5 +50,29 @@ De eerste enemy is de beginners enemy die best traag is wat hem goed geschikt ma
 
 
 ![Schermafbeelding 2023-10-31 184710](https://github.com/Dry0/Tower-Defense-Game/assets/115462366/10732ffd-a82c-4a77-997b-c2af6393aa3b)
+
+
+## Product 8: Prototype test video
+Ja hier is de video  
+
+[![video](https://ucarecdn.com/dbdc3ad0-f375-40ad-8987-9e6451b28b50/)](https://www.youtube.com/watch?v=CzzRML1swF0)
+
+## Product 9: SCRUM planning inschatting 
+
+[Link naar de openbare trello](https://trello.com/b/YNt5He3H/tower-defense-game)
+
+## Product 10: Gitflow conventions
+
+Ik zal meerendeels 
+
+Je hebt voor je eigen project in je readme gitflow conventies opgesteld en je hier ook aantoonbaar aan gehouden. 
+
+De gitflow conventions gaan uit van een extra branch Develop naast de "Master"/"Main". Op de main worden alleen stabiele releases gezet.
+
+Verder worden features op een daarvoor bedoelde feature banch ontwikkeld. Ook kun je gebruik maken van een hotfix brancg vanaf develop.
+
+Leg hier uit welke branches jij gaat gebruiken en wat voor namen je hier aan gaat meegeven. Hoe vaak ga je comitten en wat voor commit messages wil je geven?
+
+Meer info over het gebruiken van gitflow [hier](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 
 
