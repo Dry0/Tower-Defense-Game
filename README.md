@@ -13,6 +13,8 @@ Dit is de [Root](https://github.com/Dry0/Tower-Defense-Game/tree/Develop/Assets)
 
 Product: 3 Build op Unity
 
+hier is mijn build
+
 Product: 4 Game met Sprites(Animations) en Textures
 
 ![ezgif com-video-to-gif](https://github.com/Dry0/Tower-Defense-Game/assets/115462366/865960f5-a378-454d-b801-7197b96b5034)
@@ -21,8 +23,26 @@ Product: 4 Game met Sprites(Animations) en Textures
 
 
 Product:5 Issues met debug screenshots op Github
+
 [Hier de link naar mijn issues](https://github.com/Dry0/Tower-Defense-Game/issues/2)
 
 
 Product:6 Game Design met onderbouwing
+
+*  **Je game bevat torens die kunnen mikken en schieten op een bewegend doel.** 
+
+*Mijn torens kunnen alle kanten op draaien die ze willen en kunnen de enemy tracken met bullets *
+
+*  **Je game bevat vernietigbare vijanden die 1 of meerderen paden kunnen volgen.**  
+
+*Mijn enemies bevatten 2 types: 
+De eerste enemy is de beginners enemy die best traag is wat hem goed geschikt maakt als begin enemy zodat je het spel kan uittesten.
+
+De tweede enemy is erg snel wat hem erg gevaarlijk maakt als hij in grotere groepen voorkomt hij kan slomere enemys inhalen dus je hebt bijna geen rust als hij er is.*
+
+*  **Je game bevat een “wave” systeem waarmee er onder bepaalde voorwaarden (tijd/vijanden op) nieuwe waves met vijanden het veld in komen.**
+
+*De enemies spawnen in een grote groep achter elkaar, na een bepaalde tijde spwant de 2e wave etc.*
+
+
 
