@@ -17,7 +17,7 @@ public class WaveSpawner : MonoBehaviour
     GameObject currentEnemy;
     bool Active = true;
 
-    // Start is called before the first frame update
+    
     void Start()
     {
         currentEnemyWave = waves[waveCount]; // currentEnemyWave is the amount of waves that are in the waveCount
@@ -32,9 +32,9 @@ public class WaveSpawner : MonoBehaviour
 
 
             yield return new WaitForSeconds(currentCooldown);
-            GameObject gameObject1 = currentEnemyWave.enemies[enemyCount]; // added dont think this is the right one
-            currentEnemy = gameObject1; // goes down the list of the way to spawn the enemies 
-            //currentEnemy = currentEnemyWave.enemies[enemyCount]; // goes down the list of the way to spawn the enemies ORGINAL ONE
+            //GameObject gameObject1 = currentEnemyWave.enemies[enemyCount]; // added dont think this is the right one
+            //currentEnemy = gameObject1; // goes down the list of the way to spawn the enemies 
+            currentEnemy = currentEnemyWave.enemies[enemyCount]; // goes down the list of the way to spawn the enemies //ORGINAL ONE
             enemyCount++;
 
             WayPointFollower follower = currentEnemy.GetComponent<WayPointFollower>(); // picks the follower and sets the path of follower to their path

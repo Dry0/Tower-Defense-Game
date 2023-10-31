@@ -73,9 +73,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: -362997390, guid: 654df0e01dec27a45a3e41d20d637059, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.07947663, g: 0.8310869, b: 0.8962264, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -99,4 +99,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 4060106955663186128, guid: 858428e43e62a4c4bb17082190059bb5, type: 3}
   target: {fileID: 5251317284292539554, guid: 03c65ce390969954f902a632254088e5, type: 3}
-  shootInterval: 1
+  shootInterval: 2
