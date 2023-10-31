@@ -49,9 +49,6 @@ De eerste enemy is de beginners enemy die best traag is wat hem goed geschikt ma
 [“Draw.io”](https://app.diagrams.net/) Tool
 
 
-
-![Schermafbeelding 2023-10-31 184710](https://github.com/Dry0/Tower-Defense-Game/assets/115462366/612da28b-fa4b-4bd5-8b72-13d858681ca2)
-
-
+![Schermafbeelding 2023-10-31 184710](https://github.com/Dry0/Tower-Defense-Game/assets/115462366/10732ffd-a82c-4a77-997b-c2af6393aa3b)
 
 
