@@ -21,7 +21,7 @@ Product: 4 Game met Sprites(Animations) en Textures
 
 
 Product:5 Issues met debug screenshots op Github
-[Hier de link naar mijn issues]()
+[Hier de link naar mijn issues](https://github.com/Dry0/Tower-Defense-Game/issues/2)
 
 
 Product:6 Game Design met onderbouwing
