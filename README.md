@@ -45,7 +45,7 @@ De eerste enemy is de beginners enemy die best traag is wat hem goed geschikt ma
 
 ## Product 7: Class Diagram voor volledige codebase 
 
-[“Draw.io”](https://app.diagrams.net/)
+[“Draw.io”](https://app.diagrams.net/) Tool
 
 
 
