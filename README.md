@@ -55,7 +55,11 @@ De eerste enemy is de beginners enemy die best traag is wat hem goed geschikt ma
 ## Product 8: Prototype test video
 Ja hier is de video  
 
-[![video](https://ucarecdn.com/dbdc3ad0-f375-40ad-8987-9e6451b28b50/)](https://www.youtube.com/watch?v=CzzRML1swF0)
+
+
+https://github.com/Dry0/Tower-Defense-Game/assets/115462366/53df317b-0c90-46d4-9dde-6b0688add7f4
+
+
 
 ## Product 9: SCRUM planning inschatting 
 
