@@ -1,6 +1,7 @@
 # Tower-Defense-Game-2.1
  tower defense game voor jaar 2 
 
+![Schermafbeelding game](https://github.com/Dry0/Tower-Defense-Game/assets/115462366/b5dd2ff4-155f-4450-8c90-4949c52d3fe4)
 
 ## Product 1: "DRY SRP Scripts op GitHub"
 
