@@ -8,7 +8,8 @@ public class WaveSpawner : MonoBehaviour
     [SerializeField] Path path;
     [SerializeField] Transform container;
 
-    float currentCooldown = 0;
+    float currentCooldown = 1f;
+
 
     int waveCount = 0;
     EnemyWave currentEnemyWave;
@@ -32,9 +33,7 @@ public class WaveSpawner : MonoBehaviour
 
 
             yield return new WaitForSeconds(currentCooldown);
-            //GameObject gameObject1 = currentEnemyWave.enemies[enemyCount]; // added dont think this is the right one
-            //currentEnemy = gameObject1; // goes down the list of the way to spawn the enemies 
-            currentEnemy = currentEnemyWave.enemies[enemyCount]; // goes down the list of the way to spawn the enemies //ORGINAL ONE
+            currentEnemy = currentEnemyWave.enemies[enemyCount]; // goes down the list of the way to spawn the enemies 
             enemyCount++;
 
             WayPointFollower follower = currentEnemy.GetComponent<WayPointFollower>(); // picks the follower and sets the path of follower to their path

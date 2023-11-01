@@ -13,7 +13,7 @@ public class TowerPlacement : MonoBehaviour
     {
         
     }
-
+    //Physics2D.Raycast
     // Update is called once per frame
     void Update()
     { // checks if we clicked on one if the towerslots
