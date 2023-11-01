@@ -57,7 +57,8 @@ Ja hier is de video
 
 
 
-https://github.com/Dry0/Tower-Defense-Game/assets/115462366/53df317b-0c90-46d4-9dde-6b0688add7f4
+
+![ezgif com-video-to-gif (2)](https://github.com/Dry0/Tower-Defense-Game/assets/115462366/0c8ffc0b-4c68-43a6-87f7-8957bc2bdfee)
 
 
 
