@@ -21,6 +21,7 @@ hier is mijn build
 
 ![ezgif com-video-to-gif](https://github.com/Dry0/Tower-Defense-Game/assets/115462366/865960f5-a378-454d-b801-7197b96b5034)
 
+![ezgif com-video-to-gif (2)](https://github.com/Dry0/Tower-Defense-Game/assets/115462366/0c8ffc0b-4c68-43a6-87f7-8957bc2bdfee)
 
 
 
