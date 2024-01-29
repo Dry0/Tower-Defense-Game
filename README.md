@@ -17,7 +17,7 @@ Dit is de [Root](https://github.com/Dry0/Tower-Defense-Game/tree/Develop/Assets)
 ## Product 3: Build op Github
 
 hier is mijn build
-[Release](https://github.com/Dry0/Tower-Defense-Game/releases/tag/TDM-TDG)
+[Release](https://github.com/Dry0/Tower-Defense-Game/releases/tag/Tower-defense-Game)
 
 ## Product 4: Game met Sprites(animations) en Textures 
 
