@@ -29,7 +29,7 @@ hier is mijn build
 
 ## Product 5: Issues met debug screenshots op GitHub 
 
-[Hier de link naar mijn issues](https://github.com/Dry0/Tower-Defense-Game/issues/2)
+[Hier de link naar mijn issues](https://github.com/Dry0/Tower-Defense-Game/issues/4)
 
 
 ## Product 6: Game design met onderbouwing 
